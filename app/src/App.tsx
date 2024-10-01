@@ -8,9 +8,10 @@ function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirmPassword] = useState("");
+  const [hello, setHello] = useState("");
   
 
- 
+  
   const handleClick = () => {
     if (firstName === '') {
       alert("No name provided");
